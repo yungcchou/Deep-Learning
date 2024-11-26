@@ -38,9 +38,11 @@
 
 - **定義**：衡量自變量解釋因變量（$y$）變異的比例。
 - **公式**：
+
     $$R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}$$
     
 其中：
+
 - $\text{SS}_{\text{res}} = \sum_{i=1}^n (\hat{y}_i - y_i)^2$ （殘差平方和）
 - $\text{SS}_{\text{tot}} = \sum_{i=1}^n (y_i - \bar{y})^2$ （總平方和）
 - **範圍**： $[-\infty, 1]$。越高越好。
