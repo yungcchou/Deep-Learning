@@ -18,11 +18,17 @@
 
 數學上，LSTM 單元的操作如下：
 $$f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)$$
+
 $$i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)$$
+
 $$\tilde{c}_t = \tanh(W_c \cdot [h_{t-1}, x_t] + b_c)$$
+
 $$c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t$$
+
 $$o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)$$
+
 $$h_t = o_t \odot \tanh(c_t)$$
+
 其中：
 - $x_t$：第 $t$ 步的輸入。
 - $h_{t-1}$：前一步的隱藏狀態。
