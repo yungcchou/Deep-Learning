@@ -40,8 +40,8 @@
     $$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$
 
   其中：
-  - $\text{SS}_{\text{res}} = \sum_{i=1}^n (\hat{y}_i - y_i)^2$ （殘差平方和）
-  - $\text{SS}_{\text{tot}} = \sum_{i=1}^n (y_i - \bar{y})^2$ （總平方和）
+  - $SS_{res} = \sum_{i=1}^n (\hat{y}_i - y_i)^2$ （殘差平方和）
+  - $SS_{tot} = \sum_{i=1}^n (y_i - \bar{y})^2$ （總平方和）
   - **範圍**： $[-\infty, 1]$。越高越好。
       - $R^2 = 1$：完美預測。
       - $R^2 = 0$：模型效果與均值相同。
