@@ -34,10 +34,10 @@
 
 ---
 
-### 4. **$R^2$ 或判定係數（Coefficient of Determination）**
+### 4. **$R^2$ 或判定係數 (Coefficient of Determination)** 
 
-    - **定義**：衡量自變量解釋因變量（ $y$ ）變異的比例。
-    - **公式**：
+    -  **定義**：衡量自變量解釋因變量（ $y$ ）變異的比例。
+    -  **公式**：
         $$R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}$$ 
      其中：
     - $\text{SS}_{\text{res}} = \sum_{i=1}^n (\hat{y}_i - y_i)^2$ （殘差平方和）
