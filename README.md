@@ -3,6 +3,7 @@
 ### [1D CNN](1D_CNN.md)
 ### [2D CNN](2D_CNN.md)
 ### [RNN](RNN.md)
+### [LSTM](LSTM.md)
 
 
 ## Memo
